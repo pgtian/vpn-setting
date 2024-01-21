@@ -58,7 +58,7 @@
 		<key>PayloadIdentifier</key>
 		<string>WiFi-7f48025ddfe2cac6f338576030e2cb952ffd0a11</string>
 		<key>PayloadOrganization</key>
-		<string>Tyjkm-Inc</string>
+		<string>Tyjkm Inc.</string>
 		<key>PayloadRemovalDisallowed</key>         <false />
 		<key>PayloadType</key>
 		<string>Configuration</string>
