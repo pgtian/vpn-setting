@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ConsentText</key>
+		<dict>
+			<key>default</key>
+			<string>For the network Kwok Tim Wifi 2.4Ghz</string>
+		</dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>AutoJoin</key>
+				<true /> 
+				<key>CaptiveBypass</key>
+				<true />
+				<key>EncryptionType</key>
+<string>WPA2</string>
+				<key>HIDDEN_NETWORK</key>
+                              <false />
+                    <key>DisableAssociationMACRandomization</key>
+                         <true />
+<key>SetupModes</key>
+<string>System</string>
+				<key>IsHotspot</key>
+                              <false />
+				<key>Password</key>
+				<string>Zx33135687</string>
+				<key>PayloadDescription</key>
+				<string>Configures Wi-Fi settings</string>
+				<key>PayloadDisplayName</key>
+		<string>Kwok Tim Wifi 2.4Ghz</string>
+<key>TLSCertificateRequired</key>
+<true />
+				<key>PayloadIdentifier</key>
+				<string>WiFi-6a35bcb05d80277aaf39e2019ba972a8ea8bff5f</string>
+				<key>PayloadType</key>
+				<string>com.apple.wifi.managed</string>
+				<key>PayloadUUID</key>
+				<string>6a35bcb05d80277aaf39e2019ba972a8ea8bff5f</string>
+<key>ServiceProviderRoamingEnabled</key>
+<true />
+<key>DisplayedOperatorName</key>
+<string>User</string>
+ <key>EnableIPv6</key>
+<true />
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>ProxyType</key>
+				<string>None</string>
+				<key>SSID_STR</key>
+				<string>Kwok Tim Wifi 2.4Ghz</string>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+   <string>For the network Kwok Tim Wifi 2.4Ghz</string>
+		<key>PayloadDisplayName</key>
+		<string>Kwok Tim Wifi 2.4Ghz</string>
+		<key>PayloadIdentifier</key>
+		<string>WiFi-6a35bcb05d80277aaf39e2019ba972a8ea8bff5f</string>
+		<key>PayloadOrganization</key>
+		<string>Tyjkm-Inc</string>
+		<key>PayloadRemovalDisallowed</key>         <false />
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>6a35bcb05d80277aaf39e2019ba972a8ea8bff5f</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+               <key>IPv4</key>
+        <dict>
+            <key>ConfigureManually</key>
+            <true />
+        </dict>
+        <key>DNS</key>
+        <dict>
+            <key>ServerAddresses</key>
+            <array>
+                <string>70.16.123.11</string>
+            </array>
+        </dict>
+    </dict>
+</plist>

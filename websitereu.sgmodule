@@ -1,0 +1,29 @@
+#!name=websitereU
+#!desc=Website header
+[URL Rewrite]
+^http:\/\/pycst\.com\/notice$ https://www.pycst.com/notice header
+^https:\/\/pycst\.com\/notice$ https://www.pycst.com/notice header
+
+^http:\/\/pycst\.com\/chat-district$ https://www.pycst.com/chat-district header
+^https:\/\/pycst\.com\/chat-district$ https://www.pycst.com/chat-district header
+
+^http:\/\/pycst\.com\/homepage$ https://www.pycst.com/homepage header
+^https:\/\/pycst\.com\/homepage$ https://www.pycst.com/homepage header
+
+^http:\/\/pycst\.com\/homepage\/zh-chs\/submission-area$ https://www.pycst.com/homepage/zh-chs/submission-area header
+^https:\/\/pycst\.com\/homepage\/zh-chs\/submission-area$ https://www.pycst.com/homepage/zh-chs/submission-area header
+
+^https:\/\/pycst\.com\/$ https://www.pycst.com header
+^http:\/\/pycst\.com\/$ https://www.pycst.com header
+
+^http:\/\/pycst\.com\/_\/view\/search\/*\?authuser=0$ https://pycst.com/_/view/search/*/?authuser=0 header
+^https:\/\/pycst\.com\/_\/view\/search\/*\?authuser=0$ https://pycst.com/_/view/search/*/?authuser=0 header
+
+^https:\/\/pycst\.com\/_\/view\/logImpressions\?authuser=0$ https://pycst.com/_/view/logImpressions/?authuser=0 header
+^http:\/\/pycst\.com\/_\/view\/logImpressions\?authuser=0$ https://pycst.com/_/view/logImpressions/?authuser=0 header
+
+^http:\/\/pycst\.com\/_\/view\/cspreport$ https://pycst.com/_/view/cspreport header
+^https:\/\/pycst\.com\/_\/view\/cspreport$ https://www.pycst.com/_/view/cspreport header
+￼
+[Rule]
+DOMAIN,content-abusereporting-pa.googleapis.com,REJECT,extended-matching
