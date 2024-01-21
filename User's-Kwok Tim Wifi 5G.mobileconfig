@@ -24,7 +24,7 @@
 				<key>IsHotspot</key>
                               <false />
 				<key>Password</key>
-				<string> </string>
+				<string></string>
 				<key>PayloadDescription</key>
 				<string>Configures Wi-Fi settings</string>
 				<key>PayloadDisplayName</key>
